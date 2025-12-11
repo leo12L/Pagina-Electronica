@@ -1,0 +1,23 @@
+
+.principal{
+    background-color: rgb(210, 210, 226)
+}
+
+.titulo-clases{
+    text-decoration: none;
+}
+
+.estructura{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;  
+}
+
+.card{
+   border: 10px solid #795a5a;
+   width:200px;
+   height: 200px;
+   padding: 10px;
+   text-align: center;
+   background-color: rgb(158, 224, 224);
+}
