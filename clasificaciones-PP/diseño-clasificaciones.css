@@ -1,0 +1,21 @@
+.electricosPas{
+ border: 10px solid #795a5a;
+   width:200px;
+   height: 200px;
+   padding: 10px;
+   text-align: center;
+   background-color: rgb(158, 224, 224);
+}
+
+.electricosPas img{
+  width: 200px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.estructuraPas{
+    display: flex;
+  justify-content: space-around;
+  align-items:center;  
+}

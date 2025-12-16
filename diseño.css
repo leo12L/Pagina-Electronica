@@ -1,10 +1,28 @@
+.cabeza{
+text-align: center;
+}
 
 .principal{
     background-color: rgb(210, 210, 226)
 }
 
 .titulo-clases{
-    text-decoration: none;
+   width:800px;
+   height: 100px;
+   padding: 15px;
+   background-color: rgb(158, 224, 224);
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.titulo-clases h2{
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.titulo-clases p{
+  margin-bottom: 0;
+  font-size: 16px;
 }
 
 .estructura{
