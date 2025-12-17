@@ -1,5 +1,5 @@
 .electricosPas{
- border: 10px solid #795a5a;
+   border: 10px solid #795a5a;
    width:200px;
    height: 200px;
    padding: 10px;
@@ -15,7 +15,7 @@
 }
 
 .estructuraPas{
-    display: flex;
+  display: flex;
   justify-content: space-around;
   align-items:center;  
 }
