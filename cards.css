@@ -1,0 +1,35 @@
+body{
+    background-color: azure;
+}
+
+.categorias {
+    border: 1px solid black;
+    background: wheat;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+
+.card {
+    width: 450px;
+    height: 110px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(158, 224, 224);
+    line-height: 100px;
+    text-align: center;
+    margin: 10px;
+}
+
+.card img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    right: 172px;
+    top: 5px;
+}
