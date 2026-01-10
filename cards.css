@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(221, 240, 240);
-}
+
 
 .title-section{
     position: relative;
@@ -12,8 +10,6 @@ body{
     justify-content: space-between;
     align-items: center;
     font-size: 40px;
-
-    
 }
 
 .categorias {
