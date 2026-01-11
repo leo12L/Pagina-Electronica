@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 
-*,
-*::before,
-**::after {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,13 +37,14 @@
 }
 
 body{
-    background: #ffffff;
+    background: #f8f6f6;
 }
 
 a, samp{
     font-size: 30px;
     font-family: "Oswald", sans-serif;
     text-decoration: none;
+    color: #1f2937;
 }
 
 
@@ -54,9 +53,9 @@ a, samp{
     justify-content: space-between;
     align-items: center;
     padding: var(--space-xs);
-    background: rgba(255, 255, 255, 0.95);
+    background: var(--color-primary);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(253, 253, 253, 0.1);
     z-index: 1000;
     animation: slideDown 0.5 ease-out;
 }
@@ -70,7 +69,7 @@ a, samp{
 }
 
 .site-opcion-menu a:hover{
-    color: var(--color-text);
+    color: var(--color-text-inverse);
 }
 
 
@@ -126,7 +125,6 @@ a, samp{
     display: grid;
     grid-template-columns: 8% 1fr 20%;
     grid-template-rows: 8% 35% 1fr 20% 1fr;
-    inset: 0;
     background: linear-gradient(90deg,
             rgba(0, 0, 0, 0.7) 0%,
             rgba(0, 0, 0, 0.4) 40%,
