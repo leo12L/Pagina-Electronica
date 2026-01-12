@@ -69,7 +69,7 @@
 
 
 .card-componente {
-  width: 300px;
+  width: 400px;
   max-width: 1200px;
   display: flex;
   justify-content: space-around;
@@ -79,8 +79,10 @@
 }
 
 .card-componente .card {
+  display: flex;
+  flex-direction: column;
   width: 330px;
-  height: 430px;
+  height: 350px;
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -98,6 +100,19 @@
   width: 330px;
   height: 220px;
 }
+
+
+.text-grid{
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  margin-top: 70px;
+}
+
+.text-info{
+  grid-column: 2;
+  text-align: left;
+}
+
 
 
 
