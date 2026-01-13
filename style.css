@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 *{
     margin: 0;
@@ -123,8 +123,8 @@ a, samp{
   grid-column-start:1;
     grid-column-end:5;
     display: grid;
-    grid-template-columns: 8% 1fr 20%;
-    grid-template-rows: 8% 35% 1fr 20% 1fr;
+    grid-template-columns: 8%  36% 1fr 20%;
+    grid-template-rows: 8% 35% 8% 10% 10% 1fr;
     background: linear-gradient(90deg,
             rgba(0, 0, 0, 0.7) 0%,
             rgba(0, 0, 0, 0.4) 40%,
@@ -132,13 +132,14 @@ a, samp{
 }
 
 .banner-grid-content{
-    grid-column: 2 ;
+    grid-column-start:2;
+    grid-column-end:4;
     grid-row: 2; 
 }
 
 
 .banner-grid-content h1{
-    font-family:"Merriweather";
+    font-family:"Manrope";
     font-size: clamp(2rem, 5vw, 300.5rem);
     color: var(--color-text-inverse);
 }
@@ -149,26 +150,41 @@ a, samp{
 }
 
 .banner-serch{
-    margin: 10px;
-    display: flex;
-    justify-content: start;
-    justify-items: center;
-    grid-column: 2;
+    background: white;
+    grid-column-start:2;
+    grid-column-end:3 ; 
     grid-row: 4;
-    border: 5px var(--color-primary) ;
+    display: flex;
+    border-radius: 4px;
+   
+    
 }
 
+
+
 .banner-serch input{
-    width: 40%;
-    height: 50px;
+    background: white;
+    border: none;
+    height: 100%;
+    width: 70%;
+    margin-left: 25px;
+    font-size: 25px;
+    
    
 }
 
 .banner-serch button{
+    background: #60ADCA;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: 0;
     font-size: 50px;
     text-align: center;
-    height: 55px;
-    width: 80px;
+    height: 80%;
+    width: 25%;
 }
 
-
+.banner-serch button:hover{
+    background: red;
+}
