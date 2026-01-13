@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&display=swap');
 
 
-.sbtitle-1{
+.sbtitle-1 {
   font-family: "Merriweather";
   font-size: 30px;
   margin-top: 120px;
@@ -10,25 +10,25 @@
 }
 
 .categorias {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 70%;
-    margin-top: 0;
-    margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-top: 0;
+  margin: auto;
 }
 
 .card-clasificacion {
-    width: 450px;
-    height: 110px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 10px 10px 10px rgba(0,10,10,0.10);
-    margin: 17px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    
+  width: 450px;
+  height: 110px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 10px rgba(0, 10, 10, 0.10);
+  margin: 17px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+
 }
 
 .card-content {
@@ -55,78 +55,83 @@
   text-align: left;
 }
 
-.section-components{
+.section-components {
   display: flex;
   flex-direction: column;
   margin-top: 200px;
   margin-bottom: 200px;
-  
+
 }
 
-.content-right{
-  display: grid;
-  grid-template-columns: 10% 20% 60% 10%;
-  grid-template-rows: 10% 1fr 10%;
-  border: 4px solid red;
-  
-  
-}
-
-.espaciados-one{
+.espaciados-one {
   height: 200px;
   border: 3px solid green;
 }
 
-.content-right .text-grid{
-  grid-column: 2;
-  grid-row: 2;
+
+
+
+.content-right {
   display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 1000px;
+  width: 80%;
+  border: 4px solid rgb(255, 0, 0);
+
+}
+
+.content-right .text-grid {
+  align-items: center;
+  width: 40%;
+
+}
+
+.content-right .text-info {
+  justify-content: center;
+}
+
+.content-right .flexboxed {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  border: 4px solid black;
 }
 
-.content-right .text-info{
-  justify-content: center;
-  
-}
 
-.content-right .flexboxed{
-  grid-column: 3;
-  grid-row-start:2 ;
+
+.content-left {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-
-
-.content-left{
-  display: grid;
-  grid-template-columns: 10% 60% 20% 10%;
-  grid-template-rows: 10% 1fr 10%;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 1000px;
+  width: 80%;
   border: 4px solid blue;
 
 }
 
-.content-left .text-grid{
-  grid-column: 3;
-  grid-row: 2;
-  display: flex;
-  justify-content: center;
+.content-left .text-grid {
+  width: 40%;
   align-items: center;
 }
 
-.content-left .text-info{
+.content-left .text-info {
   justify-content: center;
-  
+
 }
 
-.content-left .flexboxed{
-  grid-column: 2;
-  grid-row-start: 2;
+.content-left .flexboxed {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: 4px solid black;
 }
 
 
@@ -137,17 +142,15 @@
 
 
 
-.card-componente{
+.card-componente {
   position: relative;
-  width: 250px;
-  height: 250px;
-  margin-left:10px ;
-  margin-right: 10px;
-  margin-top: 10px;
-  
+  width: 300px;
+  height: 300px;
+ margin: 5px;
+
 }
 
-.card-componente .face{
+.card-componente .face {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -158,34 +161,34 @@
   display: flex;
 }
 
-.card-componente .front{
+.card-componente .front {
   transform: perspective(600px) rotateY(0deg);
- border: solid 1px black ;
- border-radius: 10px;
+  border: solid 1px black;
+  border-radius: 10px;
 }
 
-.card-componente .front img{
+.card-componente .front img {
   justify-content: center;
   align-items: center;
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
+
 }
 
-.card-componente .front h3{
+.card-componente .front h3 {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 45px;
   line-height: 45px;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   text-align: center;
 }
 
-.card-componente .back{
+.card-componente .back {
   transform: perspective(600px) rotateY(180deg);
   background: rgb(35, 165, 163);
   padding: 15px;
@@ -194,51 +197,35 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  border: solid 1px black ;
- border-radius: 10px;
+  border: solid 1px black;
+  border-radius: 10px;
 }
 
-.card-componente .back .link{
+.card-componente .back .link {
   border-top: solid 1px #f3f3f3;
   height: 50px;
   line-height: 50px;
 }
 
-.card-componente .back .link a{
+.card-componente .back .link a {
   color: #f3f3f3;
 }
 
-.card-componente .back h3{
+.card-componente .back h3 {
   font-size: 30px;
   margin-top: 20px;
   letter-spacing: 2px;
-  
+
 }
 
-.card-componente .back p{
+.card-componente .back p {
   letter-spacing: 1px;
 }
- 
-.card-componente:hover .front{
+
+.card-componente:hover .front {
   transform: perspective(600px) rotateY(180deg);
 }
 
-.card-componente:hover .back{
+.card-componente:hover .back {
   transform: perspective(600px) rotateY(360deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

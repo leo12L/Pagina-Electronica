@@ -52,8 +52,8 @@ a, samp{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--space-xs);
-    background: var(--color-primary);
+    padding: var(--space-lg);
+    background: #43A047;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(253, 253, 253, 0.1);
     z-index: 1000;
@@ -142,6 +142,7 @@ a, samp{
     font-family:"Manrope";
     font-size: clamp(2rem, 5vw, 300.5rem);
     color: var(--color-text-inverse);
+    
 }
 
 .banner-grid-content h4{
