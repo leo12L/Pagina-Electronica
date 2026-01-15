@@ -38,15 +38,16 @@
 
 header {
     display: grid;
-    grid-template-columns: 10% 25% 1fr 15% 10%;
-    grid-template-rows: 2% 8% 2% 18% 32% 36% ;
+    grid-template-columns: 5% 20% 1fr 15% 10%;
+    grid-template-rows: 2% 8% 2% 18% 29% 5% 34%;
     height: 100vh;
-    background-color: #000;
-    background-image: url(img-banner/image.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img-banner/image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
+
 
 li {
     list-style: none;
@@ -57,18 +58,34 @@ a {
     color: #ffffff;
 }
 
-.title{
-    grid-column:3/4 ;
-    grid-row:5/6;
+.title {
+    grid-column: 3/4;
+    grid-row: 5/6;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size:40px ;
+    align-items: end;
+    font-size: 40px;
     text-align: center;
 }
 
-.title h1{
+.title h1 {
+    font-size: 90px;
+    font-family: "Manrope";
     color: white;
+}
+
+
+
+.mini-text {
+    grid-column: 3/4;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    font-size: 30px;
 }
 
 .logo {
@@ -86,10 +103,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 
-.div-btn a{
+.div-btn a {
     font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.div-btn a:hover {
+    color: #FAA648;
+}
