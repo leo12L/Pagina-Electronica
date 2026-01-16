@@ -9,11 +9,11 @@
     <title>LeoElectronics</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
     <header>
-        <div class="shadow"></div>
         <div class="title">
             <h1>Aprende de los componentes electronicos</h1>
         </div>
@@ -32,156 +32,172 @@
     </header>
 
     <main>
-        <div>
-            <div class="sbtitle-1">
-                <h2>Clasificaciones de los componentes</h2>
-            </div>
-            <section class="categorias">
-                <div class="content-flex">
-                    <a class="card-clasificacion" href="#Pasivos">
-                        <div class="card-img"><img src="img-indice/img-pasivos.png" alt=""></div>
-                        <div class="card-text">
-                            <p>Componentes Pasivos</p>
-                        </div>
-                    </a>
-
-                    <a class="card-clasificacion" href="#salida">
-                        <div class="card-img"><img src="img-indice/img-sensores.png" alt=""></div>
-                        <div class="card-text">
-                            <p>Componentes de Sensor</p>
-                        </div>
-                    </a>
-
-                    <a class="card-clasificacion" href="#sensores">
-                        <div class="card-img"><img src="img-pasivos/" alt=""></div>
-                        <div class="card-text">
-                            <p>Componentes Pasivos</p>
-                        </div>
-                    </a>
-
-                    <a class="card-clasificacion" href="#energia">
-                        <div class="card-img"><img src="img-pasivos/" alt=""></div>
-                        <div class="card-text">
-                            <p>Componentes Pasivos</p>
-                        </div>
-                    </a>
-                </div>
-            </section>
+        <div class="sbtitle-1">
+            <h2>Clasificaciones de los componentes</h2>
         </div>
+        <nav class="content-flex">
+            <a class="card-clasificacion" href="#Pasivos">
+                <div class="card-img"><img src="img-indice/img-pasivos.png" alt=""></div>
+                <div class="card-text">
+                    <p>Componentes Pasivos</p>
+                </div>
+            </a>
 
+            <a class="card-clasificacion" href="#salida">
+                <div class="card-img"><img src="img-indice/img-sensores.png" alt=""></div>
+                <div class="card-text">
+                    <p>Componentes de Sensor</p>
+                </div>
+            </a>
+
+            <a class="card-clasificacion" href="#sensores">
+                <div class="card-img"><img src="img-pasivos/" alt=""></div>
+                <div class="card-text">
+                    <p>Componentes Pasivos</p>
+                </div>
+            </a>
+
+            <a class="card-clasificacion" href="#energia">
+                <div class="card-img"><img src="img-pasivos/" alt=""></div>
+                <div class="card-text">
+                    <p>Componentes Pasivos</p>
+                </div>
+            </a>
+        </nav>
+
+
+
+        <div class="espacio-responsive "></div>
 
 
 
         <section class="section-components">
             <div class="fondo-section" id="Pasivos">
                 <div class="content-right">
-                    <div class="text-grid">
-                        <div class="text-info">
-                            <h2>Componentes Pasivos</h2>
-                            <p>Son elementos electrónicos que no generan ni amplifican energía, sino que la reciben,
-                                disipan
-                                (como
-                                calor),
-                                absorben o almacenan en campos eléctricos o magnéticos,
-                                sin necesidad de una fuente de alimentación externa para su función básica</p>
-                        </div>
-                    </div>
-                    <section class="flexboxed">
-                        <div class="card-componente">
-                            <div class="face front">
-                                <img src="img-pasivos/resistencias.png" alt="">
-                                <h3>Resistencia</h3>
-                            </div>
-                            <div class="face back">
-                                <h3>Resistencia</h3>
-                                <p>Limita el paso
-                                    de la electricidad y distribuye el voltaje.</p>
-                                <div class="link">
-                                    <a href="proximas-funciones.html">Leer mas</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-componente">
-                            <div class="face front">
-                                <img src="img-pasivos/potenciometro.png" alt="">
-                                <h3>Potenciometro</h3>
-                            </div>
-                            <div class="face back">
-                                <h3>Potenciometro</h3>
-                                <p>Funciona como una resistencia variable, el cual permite
-                                    ajustar la corriente y el voltaje de un circuito electrico mediante un cursor movil
-                                    que se desliza sobre una pista resistiva, dividiendo la resistencia total
-                                    en dos variables. </p>
-                                <div class="link">
-                                    <a href="proximas-funciones.html">Leer mas</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-componente">
-                            <div class="face front">
-                                <img src="img-pasivos/inductor.png" alt="">
-                                <h3>Inductor</h3>
-                            </div>
-                            <div class="face back">
-                                <h3>Inductor</h3>
-                                <p>Almacena energia en un campo magnetico cuando la corriente
-                                    electrica fluya a través de él.
+            
+                        <div class="text-grid">
+                            <div class="text-info">
+                                <h2>Componentes Pasivos</h2>
+                                <p>Son elementos electrónicos que no generan ni amplifican energía, sino que la reciben,
+                                    disipan
+                                    (como
+                                    calor),
+                                    absorben o almacenan en campos eléctricos o magnéticos,
+                                    sin necesidad de una fuente de alimentación externa para su función básica
                                 </p>
-                                <div class="link">
-                                    <a href="proximas-funciones.html">Leer mas</a>
-                                </div>
                             </div>
+                            <details class="info-desplegable">
+                                <div class="text-desplegable">
+                                    <p>Son elementos electrónicos que no generan ni amplifican energía, sino que la
+                                        reciben,
+                                        disipan
+                                        (como
+                                        calor),
+                                        absorben o almacenan en campos eléctricos o magnéticos,
+                                        sin necesidad de una fuente de alimentación externa para su función básica</p>
+                                </div>
+                            </details>
                         </div>
 
-                        <div class="card-componente">
-                            <div class="face front">
-                                <img src="img-pasivos/fotoresistencia.png" alt="">
-                                <h3>Fotoresistencia</h3>
-                            </div>
-                            <div class="face back">
-                                <h3>Fotoresistencia</h3>
-                                <p>Reduce su recistencia eléctrica cuando aumenta la luz incidente
-                                    y la aumenta cuando hay oscuridad.
-                                </p>
-                                <div class="link">
-                                    <a href="proximas-funciones.html">Leer mas</a>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="card-componente">
-                            <div class="face front">
-                                <img src="img-pasivos/condensador.png" alt="">
-                                <h3>Condensador</h3>
-                            </div>
-                            <div class="face back">
-                                <h3>Condensador</h3>
-                                <p>Almacena energia en un campo electrico,
-                                    permitiendole almacenar y liberar cargas eléctricas rapidamente.
-                                </p>
-                                <div class="link">
-                                    <a href="proximas-funciones.html">Leer mas</a>
+                        <section class="flexboxed">
+                            <div class="card-componente">
+                                <div class="face front">
+                                    <img src="img-pasivos/resistencias.png" alt="">
+                                    <h3>Resistencia</h3>
+                                </div>
+                                <div class="face back">
+                                    <h3>Resistencia</h3>
+                                    <p>Limita el paso
+                                        de la electricidad y distribuye el voltaje.</p>
+                                    <div class="link">
+                                        <a href="proximas-funciones.html">Leer mas</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="card-componente">
-                            <div class="face front">
-                                <img src="img-pasivos/condensador-polarizado.png" alt="">
-                                <h3>Condensador Polarizado</h3>
-                            </div>
-                            <div class="face back">
-                                <h3>Condensador-polarizado</h3>
-                                <p>Tiene terminales positivo(+) y negativo(-)
-                                    que debe conectarse en una direccion especifica continua.</p>
-                                <div class="link">
-                                    <a href="proximas-funciones.html">Leer mas</a>
+                            <div class="card-componente">
+                                <div class="face front">
+                                    <img src="img-pasivos/potenciometro.png" alt="">
+                                    <h3>Potenciometro</h3>
+                                </div>
+                                <div class="face back">
+                                    <h3>Potenciometro</h3>
+                                    <p>Funciona como una resistencia variable, el cual permite
+                                        ajustar la corriente y el voltaje de un circuito electrico mediante un cursor
+                                        movil
+                                        que se desliza sobre una pista resistiva, dividiendo la resistencia total
+                                        en dos variables. </p>
+                                    <div class="link">
+                                        <a href="proximas-funciones.html">Leer mas</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+
+                            <div class="card-componente">
+                                <div class="face front">
+                                    <img src="img-pasivos/inductor.png" alt="">
+                                    <h3>Inductor</h3>
+                                </div>
+                                <div class="face back">
+                                    <h3>Inductor</h3>
+                                    <p>Almacena energia en un campo magnetico cuando la corriente
+                                        electrica fluya a través de él.
+                                    </p>
+                                    <div class="link">
+                                        <a href="proximas-funciones.html">Leer mas</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-componente">
+                                <div class="face front">
+                                    <img src="img-pasivos/fotoresistencia.png" alt="">
+                                    <h3>Fotoresistencia</h3>
+                                </div>
+                                <div class="face back">
+                                    <h3>Fotoresistencia</h3>
+                                    <p>Reduce su recistencia eléctrica cuando aumenta la luz incidente
+                                        y la aumenta cuando hay oscuridad.
+                                    </p>
+                                    <div class="link">
+                                        <a href="proximas-funciones.html">Leer mas</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-componente">
+                                <div class="face front">
+                                    <img src="img-pasivos/condensador.png" alt="">
+                                    <h3>Condensador</h3>
+                                </div>
+                                <div class="face back">
+                                    <h3>Condensador</h3>
+                                    <p>Almacena energia en un campo electrico,
+                                        permitiendole almacenar y liberar cargas eléctricas rapidamente.
+                                    </p>
+                                    <div class="link">
+                                        <a href="proximas-funciones.html">Leer mas</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-componente">
+                                <div class="face front">
+                                    <img src="img-pasivos/condensador-polarizado.png" alt="">
+                                    <h3>Condensador Polarizado</h3>
+                                </div>
+                                <div class="face back">
+                                    <h3>Condensador-polarizado</h3>
+                                    <p>Tiene terminales positivo(+) y negativo(-)
+                                        que debe conectarse en una direccion especifica continua.</p>
+                                    <div class="link">
+                                        <a href="proximas-funciones.html">Leer mas</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    
 
                 </div>
             </div>
@@ -189,7 +205,7 @@
             <div class="espaciados-one"></div>
 
             <div class="fondo-section" id="salida">
-                <div  class="content-left">
+                <div class="content-left">
                     <div class="text-grid">
                         <div class="text-info">
                             <h2>Componentes de Salida</h2>
@@ -199,6 +215,17 @@
                             </p>
                         </div>
                     </div>
+                    <details class="info-desplegable">
+                        <div class="text-desplegable">
+                            <p>Son elementos electrónicos que no generan ni amplifican energía, sino que la reciben,
+                                disipan
+                                (como
+                                calor),
+                                absorben o almacenan en campos eléctricos o magnéticos,
+                                sin necesidad de una fuente de alimentación externa para su función básica</p>
+                        </div>
+                    </details>
+
                     <section class="flexboxed">
                         <div class="card-componente">
                             <div class="face front">
@@ -355,21 +382,7 @@
                             </div>
                         </div>
 
-                        <div class="card-componente">
-                            <div class="face front">
-                                <img src="img-salida/zumbador.png" alt="">
-                                <h3>Zumbador</h3>
-                            </div>
-                            <div class="face back">
-                                <h3>Zumbador</h3>
-                                <p>es un componente electroacústico que convierte energía
-                                    eléctrica en sonido, generalmente un pitido o zumbido agudo.
-                                </p>
-                                <div class="link">
-                                    <a href="">Leer mas</a>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </section>
                 </div>
             </div>
@@ -389,38 +402,7 @@
                         </div>
                     </div>
                     <section class="flexboxed">
-                        <div class="card-componente">
-                            <div class="face front">
-                                <img src="img-sensores/button.png" alt="">
-                                <h3>Button</h3>
-                            </div>
-                            <div class="face back">
-                                <h3>Button</h3>
-                                <p>es un elemento físico o digital que se presiona o hace clic para activar
-                                    una función o comando.
-                                </p>
-                                <div class="link">
-                                    <a href="">Leer mas</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-componente">
-                            <div class="face front">
-                                <img src="img-sensores/fotodiodo.png" alt="">
-                                <h3>Fotodiodo</h3>
-                            </div>
-                            <div class="face back">
-                                <h3>Fotodiodo</h3>
-                                <p>es un dispositivo semiconductor (unión P-N) que
-                                    convierte la luz (fotones) en corriente eléctrica.
-                                </p>
-                                <div class="link">
-                                    <a href="">Leer mas</a>
-                                </div>
-                            </div>
-                        </div>
-
+                    
                         <div class="card-componente">
                             <div class="face front">
                                 <img src="img-sensores/interruptores.png" alt="">
@@ -574,178 +556,189 @@
             <div class="espaciados-one"></div>
 
             <div class="fondo-section" id="energia">
-            <div class="content-left">
-                <div class="text-grid">
-                    <div class="text-info">
-                        <h2>Componentes Pasivos</h2>
-                        <p>elementos electrónicos que no generan ni amplifican energía, sino que la reciben, disipan
-                            (como
-                            calor),
-                            absorben o almacenan en campos eléctricos o magnéticos,
-                            sin necesidad de una fuente de alimentación externa para su función básica</p>
+                <div class="content-left">
+                    <div class="text-grid">
+                        <div class="text-info">
+                            <h2>Componentes Pasivos</h2>
+                            <p>elementos electrónicos que no generan ni amplifican energía, sino que la reciben, disipan
+                                (como
+                                calor),
+                                absorben o almacenan en campos eléctricos o magnéticos,
+                                sin necesidad de una fuente de alimentación externa para su función básica</p>
+                        </div>
                     </div>
+                    <section class="flexboxed">
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-energia/amperimetro.png" alt="">
+                                <h3>Amperimetro</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>Resistencia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Perferendis delectus reiciendis voluptate odio doloribus incidunt
+                                    repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente
+                                    quidem
+                                    alias assumenda repudiandae enim.</p>
+                                <div class="link">
+                                    <a href="">Leer mas</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-energia/Voltimetro.png" alt="">
+                                <h3>Voltimetro</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>Resistencia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Perferendis delectus reiciendis voluptate odio doloribus incidunt
+                                    repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente
+                                    quidem
+                                    alias assumenda repudiandae enim.</p>
+                                <div class="link">
+                                    <a href="">Leer mas</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-energia/bateria-9v.png" alt="">
+                                <h3>bateria-9v</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>Resistencia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Perferendis delectus reiciendis voluptate odio doloribus incidunt
+                                    repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente
+                                    quidem
+                                    alias assumenda repudiandae enim.</p>
+                                <div class="link">
+                                    <a href="">Leer mas</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-energia/convertidor-DC-CD.png" alt="">
+                                <h3>convertidor DC-CD</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>Resistencia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Perferendis delectus reiciendis voluptate odio doloribus incidunt
+                                    repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente
+                                    quidem
+                                    alias assumenda repudiandae enim.</p>
+                                <div class="link">
+                                    <a href="">Leer mas</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-energia/energia-eolica.png" alt="">
+                                <h3>Energia eolica</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>Resistencia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Perferendis delectus reiciendis voluptate odio doloribus incidunt
+                                    repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente
+                                    quidem
+                                    alias assumenda repudiandae enim.</p>
+                                <div class="link">
+                                    <a href="">Leer mas</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-energia/fuente-regulada-DC.png" alt="">
+                                <h3>Fuente regulador DC</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>Resistencia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Perferendis delectus reiciendis voluptate odio doloribus incidunt
+                                    repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente
+                                    quidem
+                                    alias assumenda repudiandae enim.</p>
+                                <div class="link">
+                                    <a href="">Leer mas</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-energia/modulos-energia.png" alt="">
+                                <h3>Modulo de energia</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>Resistencia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Perferendis delectus reiciendis voluptate odio doloribus incidunt
+                                    repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente
+                                    quidem
+                                    alias assumenda repudiandae enim.</p>
+                                <div class="link">
+                                    <a href="">Leer mas</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-energia/panel-solar.png" alt="">
+                                <h3>Panel solar</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>Resistencia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Perferendis delectus reiciendis voluptate odio doloribus incidunt
+                                    repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente
+                                    quidem
+                                    alias assumenda repudiandae enim.</p>
+                                <div class="link">
+                                    <a href="">Leer mas</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-energia/regulacion-energia.png" alt="">
+                                <h3>Regulador de energia</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>Resistencia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Perferendis delectus reiciendis voluptate odio doloribus incidunt
+                                    repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente
+                                    quidem
+                                    alias assumenda repudiandae enim.</p>
+                                <div class="link">
+                                    <a href="">Leer mas</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </section>
                 </div>
-                <section class="flexboxed">
-                    <div class="card-componente">
-                        <div class="face front">
-                            <img src="img-energia/amperimetro.png" alt="">
-                            <h3>Amperimetro</h3>
-                        </div>
-                        <div class="face back">
-                            <h3>Resistencia</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Perferendis delectus reiciendis voluptate odio doloribus incidunt
-                                repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente quidem
-                                alias assumenda repudiandae enim.</p>
-                            <div class="link">
-                                <a href="">Leer mas</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-componente">
-                        <div class="face front">
-                            <img src="img-energia/Voltimetro.png" alt="">
-                            <h3>Voltimetro</h3>
-                        </div>
-                        <div class="face back">
-                            <h3>Resistencia</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Perferendis delectus reiciendis voluptate odio doloribus incidunt
-                                repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente quidem
-                                alias assumenda repudiandae enim.</p>
-                            <div class="link">
-                                <a href="">Leer mas</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-componente">
-                        <div class="face front">
-                            <img src="img-energia/bateria-9v.png" alt="">
-                            <h3>bateria-9v</h3>
-                        </div>
-                        <div class="face back">
-                            <h3>Resistencia</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Perferendis delectus reiciendis voluptate odio doloribus incidunt
-                                repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente quidem
-                                alias assumenda repudiandae enim.</p>
-                            <div class="link">
-                                <a href="">Leer mas</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-componente">
-                        <div class="face front">
-                            <img src="img-energia/convertidor-DC-CD.png" alt="">
-                            <h3>convertidor DC-CD</h3>
-                        </div>
-                        <div class="face back">
-                            <h3>Resistencia</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Perferendis delectus reiciendis voluptate odio doloribus incidunt
-                                repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente quidem
-                                alias assumenda repudiandae enim.</p>
-                            <div class="link">
-                                <a href="">Leer mas</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-componente">
-                        <div class="face front">
-                            <img src="img-energia/energia-eolica.png" alt="">
-                            <h3>Energia eolica</h3>
-                        </div>
-                        <div class="face back">
-                            <h3>Resistencia</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Perferendis delectus reiciendis voluptate odio doloribus incidunt
-                                repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente quidem
-                                alias assumenda repudiandae enim.</p>
-                            <div class="link">
-                                <a href="">Leer mas</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-componente">
-                        <div class="face front">
-                            <img src="img-energia/fuente-regulada-DC.png" alt="">
-                            <h3>Fuente regulador DC</h3>
-                        </div>
-                        <div class="face back">
-                            <h3>Resistencia</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Perferendis delectus reiciendis voluptate odio doloribus incidunt
-                                repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente quidem
-                                alias assumenda repudiandae enim.</p>
-                            <div class="link">
-                                <a href="">Leer mas</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-componente">
-                        <div class="face front">
-                            <img src="img-energia/modulos-energia.png" alt="">
-                            <h3>Modulo de energia</h3>
-                        </div>
-                        <div class="face back">
-                            <h3>Resistencia</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Perferendis delectus reiciendis voluptate odio doloribus incidunt
-                                repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente quidem
-                                alias assumenda repudiandae enim.</p>
-                            <div class="link">
-                                <a href="">Leer mas</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-componente">
-                        <div class="face front">
-                            <img src="img-energia/panel-solar.png" alt="">
-                            <h3>Panel solar</h3>
-                        </div>
-                        <div class="face back">
-                            <h3>Resistencia</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Perferendis delectus reiciendis voluptate odio doloribus incidunt
-                                repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente quidem
-                                alias assumenda repudiandae enim.</p>
-                            <div class="link">
-                                <a href="">Leer mas</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-componente">
-                        <div class="face front">
-                            <img src="img-energia/regulacion-energia.png" alt="">
-                            <h3>Regulador de energia</h3>
-                        </div>
-                        <div class="face back">
-                            <h3>Resistencia</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Perferendis delectus reiciendis voluptate odio doloribus incidunt
-                                repellendus illo, consequatur cumque nisi nostrum facere ut voluptates, sapiente quidem
-                                alias assumenda repudiandae enim.</p>
-                            <div class="link">
-                                <a href="">Leer mas</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </section>
             </div>
-            </div>
-
         </section>
     </main>
+
+
+
     <footer>
         <section class="footer">
             <div class="container">

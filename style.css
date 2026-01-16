@@ -46,6 +46,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin: none;
 }
 
 
@@ -103,6 +104,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 
 }
 
@@ -114,3 +116,5 @@ a {
 .div-btn a:hover {
     color: #FAA648;
 }
+
+
