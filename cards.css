@@ -95,7 +95,7 @@
 }
 
 .espaciados-one {
-  height: 200px;
+  height: 100px;
 }
 
 
@@ -107,7 +107,7 @@
 .content-right {
   display: flex;
   align-items: center;
-  border: 5px solid blue;
+  
   height: 1000px;
 
 }
@@ -140,7 +140,8 @@
   flex-direction: row-reverse;
   height: 1000px;
   width: 100%;
-  border: 4px solid green;
+  
+
 }
 
 .content-left .text-grid {

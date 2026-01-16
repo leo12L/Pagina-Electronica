@@ -10,24 +10,25 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cards.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
     <header>
-        <div class="title">
+        <div class="title" >
             <h1>Aprende de los componentes electronicos</h1>
         </div>
         <div class="mini-text">
             <p>La guia de componentes electronicos mas completa que hay</p>
         </div>
         <div class="logo">
-            <a href="p-principal.html">
+            <a href="p-principal.html" aria-label="Logo e inicio de la pagina">
                 <span class="site-logo">⌬</span>
                 <samp class="site-title">ElectroWiki</samp>
             </a>
         </div>
         <div class="div-btn">
-            <a href="proximas-funciones.html" class="btn-sesion">Inicia Sesion</a>
+            <a href="proximas-funciones.html" class="btn-sesion" aria-label="Iniciar sesion en la pagina">Inicia Sesion</a>
         </div>
     </header>
 
@@ -35,32 +36,33 @@
         <div class="sbtitle-1">
             <h2>Clasificaciones de los componentes</h2>
         </div>
-        <nav class="content-flex">
-            <a class="card-clasificacion" href="#Pasivos">
-                <div class="card-img"><img src="img-indice/img-pasivos.png" alt=""></div>
+        <nav class="content-flex" aria-label="Navegacio principal/Indice">
+            <a class="card-clasificacion" href="#Pasivos" aria-label="Ver los componentes pasivos">
+                <div class="card-img"><img src="img-indice/img-pasivos.png" alt="Imagen de componentes pasivos"></div>
                 <div class="card-text">
                     <p>Componentes Pasivos</p>
                 </div>
             </a>
 
-            <a class="card-clasificacion" href="#salida">
-                <div class="card-img"><img src="img-indice/img-sensores.png" alt=""></div>
+
+            <a class="card-clasificacion" href="#salida" aria-label="Ver los componentes de salida">
+                <div class="card-img"><img src="img-indice/img-salida.png" alt="Imagen de componentes de salida"></div>
+                <div class="card-text">
+                    <p>Componentes salida</p>
+                </div>
+            </a>
+
+            <a class="card-clasificacion" href="#sensores" aria-label="Ver los componentes de sensor">
+                <div class="card-img"><img src="img-indice/img-sensores.png" alt="Imagen de componentes sensores"></div>
                 <div class="card-text">
                     <p>Componentes de Sensor</p>
                 </div>
             </a>
 
-            <a class="card-clasificacion" href="#sensores">
-                <div class="card-img"><img src="img-pasivos/" alt=""></div>
+            <a class="card-clasificacion" href="#energia" aria-label="Ver los componentes de energia">
+                <div class="card-img"><img src="img-indice/img-energia.png" alt="Imagen de componentes energia"></div>
                 <div class="card-text">
-                    <p>Componentes Pasivos</p>
-                </div>
-            </a>
-
-            <a class="card-clasificacion" href="#energia">
-                <div class="card-img"><img src="img-pasivos/" alt=""></div>
-                <div class="card-text">
-                    <p>Componentes Pasivos</p>
+                    <p>Componentes de energia</p>
                 </div>
             </a>
         </nav>
@@ -71,143 +73,143 @@
 
 
 
-        <section class="section-components">
+        <section class="section-components" aria-labelledby="Componentes">
             <div class="fondo-section" id="Pasivos">
                 <div class="content-right">
-            
-                        <div class="text-grid">
-                            <div class="text-info">
-                                <h2>Componentes Pasivos</h2>
-                                <p>Son elementos electrónicos que no generan ni amplifican energía, sino que la reciben,
+
+                    <div class="text-grid">
+                        <div class="text-info" aria-labelledby="Descripcion de componentes Pasivos" >
+                            <h2>Componentes Pasivos</h2>
+                            <p>Son elementos electrónicos que no generan ni amplifican energía, sino que la reciben,
+                                disipan
+                                (como
+                                calor),
+                                absorben o almacenan en campos eléctricos o magnéticos,
+                                sin necesidad de una fuente de alimentación externa para su función básica
+                            </p>
+                        </div>
+                        <details class="info-desplegable" aria-labelledby="Descripcion de componentes Pasivos">
+                            <div class="text-desplegable">
+                                <p>Son elementos electrónicos que no generan ni amplifican energía, sino que la
+                                    reciben,
                                     disipan
                                     (como
                                     calor),
                                     absorben o almacenan en campos eléctricos o magnéticos,
-                                    sin necesidad de una fuente de alimentación externa para su función básica
-                                </p>
+                                    sin necesidad de una fuente de alimentación externa para su función básica</p>
                             </div>
-                            <details class="info-desplegable">
-                                <div class="text-desplegable">
-                                    <p>Son elementos electrónicos que no generan ni amplifican energía, sino que la
-                                        reciben,
-                                        disipan
-                                        (como
-                                        calor),
-                                        absorben o almacenan en campos eléctricos o magnéticos,
-                                        sin necesidad de una fuente de alimentación externa para su función básica</p>
+                        </details>
+                    </div>
+
+
+                    <section class="flexboxed" aria-labelledby="Seccion de componentes de pasivos">
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-pasivos/resistencias.png" alt="Imagen de Resistencia">
+                                <h3>Resistencia</h3>
+                            </div>
+                            <div class="face back" aria-labelledby="Informacion Recistencia" >
+                                <h3>Resistencia</h3>
+                                <p>Limita el paso
+                                    de la electricidad y distribuye el voltaje.</p>
+                                <div class="link">
+                                    <a href="proximas-funciones.html" aria-label="Leer más sobre resistencia">Leer mas</a>
                                 </div>
-                            </details>
+                            </div>
                         </div>
 
-
-                        <section class="flexboxed">
-                            <div class="card-componente">
-                                <div class="face front">
-                                    <img src="img-pasivos/resistencias.png" alt="">
-                                    <h3>Resistencia</h3>
-                                </div>
-                                <div class="face back">
-                                    <h3>Resistencia</h3>
-                                    <p>Limita el paso
-                                        de la electricidad y distribuye el voltaje.</p>
-                                    <div class="link">
-                                        <a href="proximas-funciones.html">Leer mas</a>
-                                    </div>
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-pasivos/potenciometro.png" alt="Imagen de potenciometro">
+                                <h3>Potenciometro</h3>
+                            </div>
+                            <div class="face back" aria-labelledby="Informacion Potenciometro">
+                                <h3>Potenciometro</h3>
+                                <p>Funciona como una resistencia variable, el cual permite
+                                    ajustar la corriente y el voltaje de un circuito electrico mediante un cursor
+                                    movil
+                                    que se desliza sobre una pista resistiva, dividiendo la resistencia total
+                                    en dos variables. </p>
+                                <div class="link">
+                                    <a href="proximas-funciones.html" aria-label="Leer más sobre Potenciometros">Leer mas</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="card-componente">
-                                <div class="face front">
-                                    <img src="img-pasivos/potenciometro.png" alt="">
-                                    <h3>Potenciometro</h3>
-                                </div>
-                                <div class="face back">
-                                    <h3>Potenciometro</h3>
-                                    <p>Funciona como una resistencia variable, el cual permite
-                                        ajustar la corriente y el voltaje de un circuito electrico mediante un cursor
-                                        movil
-                                        que se desliza sobre una pista resistiva, dividiendo la resistencia total
-                                        en dos variables. </p>
-                                    <div class="link">
-                                        <a href="proximas-funciones.html">Leer mas</a>
-                                    </div>
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-pasivos/inductor.png" alt="Imagen de Inductir">
+                                <h3>Inductor</h3>
+                            </div>
+                            <div class="face back" aria-labelledby="Informacion Inductores">
+                                <h3>Inductor</h3>
+                                <p>Almacena energia en un campo magnetico cuando la corriente
+                                    electrica fluya a través de él.
+                                </p>
+                                <div class="link">
+                                    <a href="proximas-funciones.html" aria-label="Leer más sobre Inductor">Leer mas</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="card-componente">
-                                <div class="face front">
-                                    <img src="img-pasivos/inductor.png" alt="">
-                                    <h3>Inductor</h3>
-                                </div>
-                                <div class="face back">
-                                    <h3>Inductor</h3>
-                                    <p>Almacena energia en un campo magnetico cuando la corriente
-                                        electrica fluya a través de él.
-                                    </p>
-                                    <div class="link">
-                                        <a href="proximas-funciones.html">Leer mas</a>
-                                    </div>
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-pasivos/fotoresistencia.png" alt="Imagen de Fotoresistencia">
+                                <h3>Fotoresistencia</h3>
+                            </div>
+                            <div class="face back" aria-labelledby="Informacion Fotorecistencia">
+                                <h3>Fotoresistencia</h3>
+                                <p>Reduce su recistencia eléctrica cuando aumenta la luz incidente
+                                    y la aumenta cuando hay oscuridad.
+                                </p>
+                                <div class="link">
+                                    <a href="proximas-funciones.html" aria-label="Leer más sobre Fotorecistencia">Leer mas</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="card-componente">
-                                <div class="face front">
-                                    <img src="img-pasivos/fotoresistencia.png" alt="">
-                                    <h3>Fotoresistencia</h3>
-                                </div>
-                                <div class="face back">
-                                    <h3>Fotoresistencia</h3>
-                                    <p>Reduce su recistencia eléctrica cuando aumenta la luz incidente
-                                        y la aumenta cuando hay oscuridad.
-                                    </p>
-                                    <div class="link">
-                                        <a href="proximas-funciones.html">Leer mas</a>
-                                    </div>
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-pasivos/condensador.png" alt="Imagen de Condensador">
+                                <h3>Condensador</h3>
+                            </div>
+                            <div class="face back" aria-labelledby="Informacion Informacion Condensador">
+                                <h3>Condensador</h3>
+                                <p>Almacena energia en un campo electrico,
+                                    permitiendole almacenar y liberar cargas eléctricas rapidamente.
+                                </p>
+                                <div class="link">
+                                    <a href="proximas-funciones.html" aria-label="Leer más sobre Condensador">Leer mas</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="card-componente">
-                                <div class="face front">
-                                    <img src="img-pasivos/condensador.png" alt="">
-                                    <h3>Condensador</h3>
-                                </div>
-                                <div class="face back">
-                                    <h3>Condensador</h3>
-                                    <p>Almacena energia en un campo electrico,
-                                        permitiendole almacenar y liberar cargas eléctricas rapidamente.
-                                    </p>
-                                    <div class="link">
-                                        <a href="proximas-funciones.html">Leer mas</a>
-                                    </div>
+                        <div class="card-componente">
+                            <div class="face front">
+                                <img src="img-pasivos/condensador-polarizado.png" alt="Imagen de Polizador">
+                                <h3>Condensador Polarizado</h3>
+                            </div>
+                            <div class="face back" aria-labelledby="Informacion de polarizador">
+                                <h3>Condensador-polarizado</h3>
+                                <p>Tiene terminales positivo(+) y negativo(-)
+                                    que debe conectarse en una direccion especifica continua.</p>
+                                <div class="link">
+                                    <a href="proximas-funciones.html" aria-label="Leer más sobre Polizador">Leer mas</a>
                                 </div>
                             </div>
+                        </div>
+                    </section>
 
-                            <div class="card-componente">
-                                <div class="face front">
-                                    <img src="img-pasivos/condensador-polarizado.png" alt="">
-                                    <h3>Condensador Polarizado</h3>
-                                </div>
-                                <div class="face back">
-                                    <h3>Condensador-polarizado</h3>
-                                    <p>Tiene terminales positivo(+) y negativo(-)
-                                        que debe conectarse en una direccion especifica continua.</p>
-                                    <div class="link">
-                                        <a href="proximas-funciones.html">Leer mas</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    
 
                 </div>
             </div>
 
             <div class="espaciados-one"></div>
 
-            <div class="fondo-section" id="salida">
+            <div class="fondo-section" id="salida" >
                 <div class="content-left">
                     <div class="text-grid">
-                        <div class="text-info">
+                        <div class="text-info" aria-labelledby="Descripcion de componentes Salida" >
                             <h2>Componentes de Salida</h2>
                             <p>Los componentes de salida electrónica son dispositivos que presentan
                                 información procesada por un sistema en un formato comprensible
@@ -215,8 +217,8 @@
                             </p>
                         </div>
                     </div>
-                    <details class="info-desplegable">
-                        <div class="text-desplegable">
+                    <details class="info-desplegable" aria-labelledby="Descripcion de componentes Salida">
+                        <div class="text-desplegable" >
                             <p>Son elementos electrónicos que no generan ni amplifican energía, sino que la reciben,
                                 disipan
                                 (como
@@ -226,19 +228,19 @@
                         </div>
                     </details>
 
-                    <section class="flexboxed">
+                    <section class="flexboxed" aria-labelledby="Seccion de componentes de salida">
                         <div class="card-componente">
                             <div class="face front">
-                                <img src="img-salida/dc-motor.png" alt="">
+                                <img src="img-salida/dc-motor.png" alt="Imagen de Motor-DC">
                                 <h3>Motor-DC</h3>
                             </div>
-                            <div class="face back">
+                            <div class="face back" aria-label="Informacion Motor-DC">
                                 <h3>Motor-DC</h3>
                                 <p>Convierte energía eléctrica en energía mecánica de rotación,
                                     utilizando un campo magnético para generar movimiento.
                                 </p>
                                 <div class="link">
-                                    <a href="">Leer mas</a>
+                                    <a href="proximas-funciones.html" aria-label="Leer más sobre Potenciometros" >Leer mas</a>
                                 </div>
                             </div>
                         </div>
@@ -382,7 +384,7 @@
                             </div>
                         </div>
 
-                        
+
                     </section>
                 </div>
             </div>
@@ -393,13 +395,25 @@
                 <div class="content-right">
                     <div class="text-grid">
                         <div class="text-info">
-                            <h2>Componentes Pasivos</h2>
-                            <p>elementos electrónicos que no generan ni amplifican energía, sino que la reciben, disipan
-                                (como
-                                calor),
-                                absorben o almacenan en campos eléctricos o magnéticos,
-                                sin necesidad de una fuente de alimentación externa para su función básica</p>
+                            <h2>Componentes de Sensor</h2>
+                            <p>Los componentes de sensor son dispositivos electrónicos diseñados para detectar, medir o
+                                responder a
+                                cambios físicos o químicos del entorno y convertir esa información en una señal
+                                eléctrica que puede ser interpretada por un circuito, un microcontrolador (como Arduino)
+                                o un sistema digital.</p>
                         </div>
+
+                        <details class="info-desplegable">
+                            <div class="text-desplegable">
+                                <p>Son elementos electrónicos que no generan ni amplifican energía, sino que la
+                                    reciben,
+                                    disipan
+                                    (como
+                                    calor),
+                                    absorben o almacenan en campos eléctricos o magnéticos,
+                                    sin necesidad de una fuente de alimentación externa para su función básica</p>
+                            </div>
+                        </details>
                     </div>
                     <section class="flexboxed">
                         <div class="card-componente">
@@ -558,13 +572,24 @@
                 <div class="content-left">
                     <div class="text-grid">
                         <div class="text-info">
-                            <h2>Componentes Pasivos</h2>
-                            <p>elementos electrónicos que no generan ni amplifican energía, sino que la reciben, disipan
-                                (como
-                                calor),
-                                absorben o almacenan en campos eléctricos o magnéticos,
-                                sin necesidad de una fuente de alimentación externa para su función básica</p>
+                            <h2>Componentes de energia</h2>
+                            <p>Los componentes de fuentes de energía son los dispositivos encargados de proporcionar,
+                                almacenar, converti
+                                o regular la energía eléctrica necesaria para que un circuito o sistema electrónico
+                                pueda funcionar correctamente.</p>
                         </div>
+
+                        <details class="info-desplegable">
+                            <div class="text-desplegable">
+                                <p>Son elementos electrónicos que no generan ni amplifican energía, sino que la
+                                    reciben,
+                                    disipan
+                                    (como
+                                    calor),
+                                    absorben o almacenan en campos eléctricos o magnéticos,
+                                    sin necesidad de una fuente de alimentación externa para su función básica</p>
+                            </div>
+                        </details>
                     </div>
                     <section class="flexboxed">
                         <div class="card-componente">
@@ -736,40 +761,39 @@
         </section>
     </main>
 
+    <footer class="footer">
+  <div class="footer-container">
 
+    <div class="footer-section">
+      <h3>Leeo Electronics</h3>
+      <p>
+        Plataforma educativa dedicada a la electrónica,
+        componentes y tecnología.
+      </p>
+    </div>
 
-    <footer>
-        <section class="footer">
-            <div class="container">
-                <div class="footer row">
-                    <div class="footer-links">
-                        <h4>compañia</h4>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </div>
-                </div>
+    <div class="footer-section">
+      <h4>Secciones</h4>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Componentes</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
 
-                <div class="footer row">
-                    <div class="footer-links">
-                        <h4>compañia</h4>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </div>
-                </div>
+    <div class="footer-section">
+      <h4>Contacto</h4>
+      <p>Email: contacto@leeoelectronics.com</p>
+      <p>Tel: +52 000 000 0000</p>
+    </div>
 
-                <div class="footer row">
-                    <div class="footer-links">
-                        <h4>compañia</h4>
-                        <div class="social-link">
-                            <a href=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </footer>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Leeo Electronics. Todos los derechos reservados.</p>
+  </div>
+</footer>
 </body>
 
 </html>
